@@ -1,0 +1,55 @@
+item {
+    id: 1
+    display_name: "Amebas"
+}
+
+item {
+    id: 2
+    display_name: "Ascaris lumbricoides"
+}
+
+item {
+    id: 3
+    display_name: "Balantidium coli"
+}
+
+item {
+    id: 4
+    display_name: "Diphyllobothrium latum"
+}
+
+item {
+    id: 5
+    display_name: "E.coli"
+}
+
+item {
+    id: 6
+    display_name: "Enterobius vermicularis"
+}
+
+item {
+    id: 7
+    display_name: "Giardia"
+}
+
+item {
+    id: 8
+    display_name: "Hymenolepis nana"
+}
+
+item {
+    id: 9
+    display_name: "Taenia"
+}
+
+item {
+    id: 10
+    display_name: "Trichuris trichura"
+}
+
+item {
+    id: 11
+    display_name: "Uncinarias"
+}
+

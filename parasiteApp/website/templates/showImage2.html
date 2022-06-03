@@ -1,0 +1,25 @@
+{% extends "./base.html" %}
+
+{% block content %}
+
+    <center>
+    
+    <h1>Parasite Image</h1>
+
+    <td>
+        {% if parasite.image %}
+          <img src="{{ parasite.image.url }}" alt="{{ parasite.image }}" style="width:100px;">
+        {% else %}
+          <span class="text-muted">No image</span>
+        {% endif %}
+      </td>
+      <td>
+        <a href="{{ parasite.image.url }}" class="btn btn-primary btn-sm target=_blank">
+          Download Image
+           </a>
+      </td>
+
+
+
+ </center>
+{% endblock %}
