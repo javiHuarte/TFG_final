@@ -137,3 +137,8 @@ def to_data_uri(pil_img):
     data64 = base64.b64encode(data.getvalue())
     return u'data:img/jpeg;base64,'+data64.decode('utf-8') 
 
+def handle_404(request, exception):
+    return render('404.html')
+
+def handle_server_error(request):
+    return render(request, 'server-error.html')
